@@ -1,0 +1,34 @@
+name: Suggest content
+description: Suggest a source or resource for a future Crypto newsletter issue
+title: "[Suggestion] "
+body:
+  - type: input
+    id: name
+    attributes:
+      label: Name
+      description: What would you like to suggest?
+    validations:
+      required: true
+  - type: input
+    id: link
+    attributes:
+      label: Primary source
+      description: Provide the original source or project link.
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Why is it useful?
+      description: Briefly explain why readers may find it useful.
+    validations:
+      required: true
+  - type: dropdown
+    id: relationship
+    attributes:
+      label: Are you the creator or affiliated with this project?
+      options:
+        - "Yes"
+        - "No"
+    validations:
+      required: true
