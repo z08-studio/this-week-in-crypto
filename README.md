@@ -8,6 +8,10 @@ Each issue includes concise introductions and links to original sources, helping
 
 [Subscribe on Substack](https://thatweekincrypto.substack.com/) to receive the latest issue in your inbox.
 
+## Latest issue
+
+[This Week in Crypto #01](https://thatweekincrypto.substack.com/p/this-week-in-crypto-01) · [Markdown archive](archive/2026/2026-11-05-issue-01.md)
+
 ## Suggest content
 
 Found a useful project, research report, governance discussion, or important development?

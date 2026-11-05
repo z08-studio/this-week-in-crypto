@@ -9,7 +9,7 @@ Publish manually every Thursday at [This Week in Crypto on Substack](https://tha
 1. Run `pnpm newsletter` in the generator, using the intended Thursday issue date.
 2. Review its source coverage, evidence, duplicate events, attribution and reader draft. Correct the draft and review `output/final/description.txt` before publication.
 3. Create an empty local draft using `./scripts/newsletter.sh new [YYYY-MM-DD]`, copy only the reviewed Formatted output into it and make final edits.
-4. Publish manually in Substack, then archive the matching final draft after publication is confirmed.
+4. Publish manually in Substack, verify the final draft against the published article, then archive it and update the README's latest-issue links.
 
 Generating content, creating a draft and creating a repository do not publish an issue. The archive is reserved for reviewed, published editions. Unpublished drafts and attachments remain ignored.
 
